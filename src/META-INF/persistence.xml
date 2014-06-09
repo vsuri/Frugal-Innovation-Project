@@ -7,6 +7,7 @@
     <class>frugalLab.Partners</class>  
     <class>frugalLab.Advisors</class>    
     <class>frugalLab.FileType</class>
+    <class>frugalLab.OtherData</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/test1?zeroDateTimeBehavior=convertToNull"/>
       <property name="javax.persistence.jdbc.password" value="13murp12"/>
