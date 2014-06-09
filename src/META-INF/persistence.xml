@@ -4,6 +4,8 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>frugalLab.Project</class>
     <class>frugalLab.Students</class>    
+    <class>frugalLab.Partners</class>  
+    <class>frugalLab.Advisors</class>    
     <class>frugalLab.FileType</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/test1?zeroDateTimeBehavior=convertToNull"/>
