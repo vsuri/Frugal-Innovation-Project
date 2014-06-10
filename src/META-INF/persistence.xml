@@ -7,13 +7,15 @@
     <class>frugalLab.Partners</class>  
     <class>frugalLab.Advisors</class>    
     <class>frugalLab.FileType</class>
+    <class>frugalLab.Category</class>
+    <class>frugalLab.Tag</class>
     <class>frugalLab.Media</class>
     <class>frugalLab.OtherData</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/test1?zeroDateTimeBehavior=convertToNull"/>
-      <property name="javax.persistence.jdbc.password" value="13murp12"/>
+      <property name="javax.persistence.jdbc.password" value="password"/>
       <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.user" value="testuser"/>
       <property name="eclipselink.ddl-generation" value="create-tables"/>
     </properties>
   </persistence-unit>
