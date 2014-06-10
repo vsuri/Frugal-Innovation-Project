@@ -8,6 +8,7 @@
     <class>frugalLab.Advisors</class>    
     <class>frugalLab.FileType</class>
     <class>frugalLab.Category</class>
+    <class>frugalLab.Tag</class>
     <class>frugalLab.Media</class>
     <class>frugalLab.OtherData</class>
     <properties>
