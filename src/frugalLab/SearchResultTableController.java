@@ -222,14 +222,23 @@ public class SearchResultTableController implements ListSelectionListener, Table
         
         // Update counts
         
-        		
+        		/*
         int projectCount = searchResultTableModel.getRowCount();
         int statusCount = projectCount;
         //int categoryCount = categoriesList.size(); // Done above now
         //tagCount = tagList.size(); // Done above now
         int studentCount = studentList.size();
         int partnerCount = partnerList.size();
+        int advisorCount = advisorList.size();*/
+        
+        int projectCount = searchResultTableModel.getRowCount();
+        int statusCount = projectCount;
+        categoryCount = categoryList.size();
+        tagCount = tagList.size();
+        int studentCount = studentList.size();
+        int partnerCount = partnerList.size();
         int advisorCount = advisorList.size();
+        
         
         searchResultPanel.updateCounts((String)searchResultTableModel.getValueAt(firstIndex, 3), projectCount, categoryCount, statusCount, tagCount,(String)searchResultTableModel.getValueAt(firstIndex, 4), studentCount, partnerCount, advisorCount);
     
