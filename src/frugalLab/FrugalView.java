@@ -68,7 +68,7 @@ public class FrugalView extends javax.swing.JFrame {
         //refreshSearchResultPanel();
     }
     
-    public void updateCounts(String startDate, int projectCount, int statusCount, int categoryCount, int tagCount, String endDate, int studentsCount, int partnersCount, int advisorsCount)
+    public void updateCounts(String startDate, String projectCount, String statusCount, String categoryCount, String tagCount, String endDate, String studentsCount, String partnersCount, String advisorsCount)
     {
 
         // Update statPanel
@@ -82,10 +82,8 @@ public class FrugalView extends javax.swing.JFrame {
         statPanel.setProjectCountTextField(projectCount);
         statPanel.setStudentsCountTextArea(studentsCount);
         statPanel.setTagCountTextArea(tagCount);
+
         
-        // refresh screen to reflect changes
-        //refreshSearchResultPanel();
-        //setupResultPanel();
     }
     
     public void refreshSearchResultPanel()
